@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.costumers {
+    margin: 10% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.costumer_title {
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.costumer_title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.costumer_title h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.costumer_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_lear {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+}
+
+
+.wrappere_learn {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 350px;
+    left: 39px;
+    top: 5661px;
+    border-radius: 0px;
+
+    background: #0C2520;
+    border-radius: 0px;
+    padding: 20px;
+}
+
+.wrappere_learn h3 {
+    margin-top: 50%;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* or 122% */
+
+
+color: #FFFFFF;
+
+}
+.wrappere_learn a {
+    margin-right: 72%;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #32735F;
+
+}
+
+
+.card_over{
+    height: 300px;
+width: 790px;
+left: 38px;
+top: 6022px;
+border-radius: 4px;
+
+background: #164038;
+border-radius: 4px;
+
+display: flex;
+}
+
+.card_user {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    border-right: 1px solid rgba(232, 232, 232, 0.3);;
+}
+
+.card_user h1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 34px;
+/* identical to box height, or 105% */
+
+
+color: #FFFFFF;
+}
+
+.card_user h1 span {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 34px;
+/* identical to box height, or 105% */
+
+
+color: #E1FFA0;
+}
+
+.card_user p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* or 130% */
+
+
+color: #FFFFFF;
+}
+
+.card_user a {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #E1FFA0;
+
+}
+
+.card_gut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-left: 5%;
+}
+
+.wrapper_big_number {
+    display: flex;
+    justify-content: end;
+}
+
+.wrapper_big_number h1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 48px;
+/* identical to box height, or 60% */
+
+
+color: #FFFFFF;
+}
+
+.wrapper_big_number span {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 12px;
+/* or 60% */
+
+
+color: #FFFFFF;
+
+
+margin-top: 25%;
+}
+
+.card_gut ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25%;
+}
+.card_gut ul li {
+    display: flex;
+    gap: 10px;
+}
+.card_gut ul li span {
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+
+color: #E1FFA0;
+
+}
+.card_gut ul li p {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+    
+    
+    color: #FFFFFF;
+    
+
+}
+
+.over_cards {
+    display: flex;
+    gap: 70px;
+}
+
+.card_google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 300px;
+width: 360px;
+left: 862px;
+top: 6022px;
+border-radius: 4px;
+
+background: #0C2520;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 4px;
+
+}
+
+.card_google h3 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 34px;
+/* identical to box height, or 116% */
+
+margin-right: 5%;
+
+color: #FFFFFF;
+
+}
+
+.Capterra {
+    display: flex;
+    justify-content: space-around;
+   gap: 50px;
+}
+
+.Capterra p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+/* identical to box height, or 115% */
+
+
+color: #FFFFFF;
+}
+
+.rewers {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 50px; */
+    width: 400px;
+}
+
+.rewers p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+color: #FFFFFF;
+}

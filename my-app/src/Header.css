@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width:100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
+}
+
+.wrapper_menu {
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    margin-left: 30%;
+}
+
+.wrapper_menu li {
+    height: 24px;
+    width: 60px;
+    left: 321px;
+    top: 28px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #2B2C4F;
+
+
+}
+
+.wrapper_sigin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-right: 5%;
+}
+
+.wrapper_sigin a {
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+
+    text-align: center;
+    color: #2B2C4F;
+
+    height: 24px;
+    width: 41px;
+    left: 1032px;
+    top: 28px;
+    border-radius: nullpx;
+
+}
+
+.wrapper_sigin button {
+    border: none;
+    box-sizing: border-box;
+    background-color: #164038;
+    border: 1px solid #164038;
+    border-radius: 100px;
+    height: 42px;
+    width: 153px;
+    left: 1097px;
+    top: 19px;
+    border-radius: 100px;
+
+    color:  #E1FFA0;
+    
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+
+
+}

@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Feedback {
+    width: 100%;
+    height: 145vh;
+    background: #0C2520;
+}
+
+.conatiner {
+    margin: 0 2%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_feedback_are_status {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.conatainer_feedback {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conatainer_feedback p {
+    height: 24px;
+    width: 155px;
+    left: 38px;
+    top: 1084px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.conatainer_feedback h1 {
+    height: 133px;
+    width: 345px;
+    left: 38px;
+    top: 1122px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.container_status {
+    width: 50%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container_status_simple {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_status_simple h3 {
+    height: 26px;
+    width: 64px;
+    left: 656px;
+    top: 1085px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #E1FFA0;
+}
+
+.container_status_simple p {
+    height: 42px;
+    width: 576px;
+    left: 656px;
+    top: 1127px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.container_cards {
+    display: flex;
+    gap: 50px;
+    height: 70vh;
+    margin-top: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_reference {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    height: 400px;
+    background: #164038;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.wrapper_card_recruit {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.card_icon h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+
+    color: #FFFFFF;
+}
+
+.card_info h5 {
+    height: 24px;
+    width: 99px;
+    left: 70px;
+    top: 1723px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.wrapper_card_recruit span h2 {
+    height: 34px;
+    width: 93px;
+    left: 70px;
+    top: 1760px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #E1FFA0;
+}
+
+.wrapper_card_recruit h2 {
+    height: 68px;
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    color: #FFFFFF;
+}
+
+.card_info p {
+    border-radius: nullpx;
+
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
